@@ -1,6 +1,6 @@
 function progress(value, divId) {
     var progressWidth = value * divId.width() / 100;
-    divId.find('div').animate({ width: progressWidth }, 500).html(value);
+    divId.find('div').animate({ width: progressWidth }, 500).html(value + '%');
 }
 $(function(){
     $(".name").typed({
@@ -13,12 +13,53 @@ $(function(){
         strings: ['Front End Developer / Designer <a href="https://twitter.com/LotVantage" target="_blank">@LotVantage</a>'],
         startDelay: 1000,
         typeSpeed: 100,
+        backDelay: 5000,
         loop: true
     });
 
-    progress(75, $('#progressBar-html'));
-    progress(75, $('#progressBar-css'));
-    progress(75, $('#progressBar-js'));
-    progress(75, $('#progressBar-adobe'));
-    progress(75, $('#progressBar-blade'));
+    $('.work-title--4wheel').typed({
+        strings: ['Product Page Developer / YouTube Channel Talent', '<a href="https://twitter.com/4WheelOnline">@4wheelonline</a>  <a href="https://www.youtube.com/user/4wheelonlinevideos">YouTube Channel</a>'],
+        startDelay: 1000,
+        typeSpeed: 100,
+        backDelay: 5000,
+        loop: true
+    });
+
+    $('.work-title--free-lance').typed({
+        strings: ['Freelance Front End Developer / Designer'],
+        startDelay: 1000,
+        typeSpeed: 100,
+        backDelay: 5000,
+        loop: true
+    });
+
+    $('.work-title--previous-profession').typed({
+        strings: ['Food Service Profesional'],
+        startDelay: 1000,
+        typeSpeed: 100,
+        backDelay: 5000,
+        loop: true
+    });
+
+    $('.education-title').typed({
+        strings: ['Saint Petersburg College <a href="https://twitter.com/spcnews">@SPCnews</a>'],
+        startDelay: 1000,
+        typeSpeed: 100,
+        backDelay: 5000,
+        loop: true
+    });
+
+    $('.education-title-2').typed({
+        strings: ['Clearwater High School <a href="https://twitter.com/clearwaterhigh">@clearwaterhigh</a>'],
+        startDelay: 1000,
+        typeSpeed: 100,
+        backDelay: 5000,
+        loop: true
+    });
+
+    progress(90, $('#progressBar-html'));
+    progress(45, $('#progressBar-js'));
+    progress(65, $('#progressBar-adobe'));
+    progress(35, $('#progressBar-blade'));
+    progress(25, $('#progressBar-laravel'));
 });
