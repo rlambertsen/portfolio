@@ -1,0 +1,81 @@
+@font-face {
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Bebas Neue'), url('../fonts/BebasNeue.woff') format('woff');
+}
+.bebas{
+    font-family: "Bebas Neue";
+}
+body{
+    background-color: #eae8e7;
+    color: #767270;
+}
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+.row--top-margin{
+    margin-right: -0.9375rem;
+    margin-left: -0.9375rem;
+    margin-top: 0.9375rem;
+}
+.card--shadow{
+    -webkit-box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+    -moz-box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+}
+.container-fluid--restricted{
+    max-width: 1250px;
+}
+.accent-color--bg{
+    background-color: #5da4d9;
+}
+.accent-color--text{
+    color: #5da4d9;
+}
+.work-content__subtext{
+    font-size: 13px;
+}
+.card{
+    border: none;
+}
+.card-block--text-white{
+    color: #FFF;
+}
+.card-block--padding-sm{
+    padding: 30px;
+}
+.card-img-top{
+    margin: 0 auto;
+}
+.fa-sidebar-size{
+    font-size: 20px;
+}
+.progress-bar {
+    border-radius: 4px;
+    background: #FFF;
+    border: 1px solid #AAA;
+    overflow: hidden;
+    height: 24px;       
+}
+.progress-bar div {
+    background-image: url(../images/pbar-ani.gif);
+}
