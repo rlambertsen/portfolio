@@ -14,7 +14,24 @@
             <div class="row row--top-margin">
                 <div class="col-md-4 col-lg-4">
                     <div class="card card--shadow">
-                        <img src="public/images/me.png" alt="" class="card-img-top img-fluid">
+                        <div id="carousel" class="carousel slide" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                                <li data-target="#carousel" data-slide-to="0" class="active"></li>
+                                <li data-target="#carousel" data-slide-to="1"></li>
+                                <li data-target="#carousel" data-slide-to="2"></li>
+                            </ol>
+                            <div class="carousel-inner" role="listbox">
+                                <div class="carousel-item active">
+                                    <img data-src="0" src="public/images/me.png" alt="First slide" class="card-img-top img-fluid">
+                                </div>
+                                <div class="carousel-item">
+                                    <img data-src="1" src="public/images/me.png" alt="Second slide" class="card-img-top img-fluid">
+                                </div>
+                                <div class="carousel-item">
+                                    <img data-src="2" src="public/images/me.png" alt="Third slide" class="card-img-top img-fluid">
+                                </div>
+                            </div>
+                        </div>
                         <div class="card-block">
                             <h4 class="card-title">
                                 <span class="name"></span>
@@ -60,7 +77,6 @@
                                 </div>
                                 <div class="col-sm-8">
                                     <label>Professional Skills</label>
-
                                     <div class="form-group">
                                         <label for="progressBar-html">HTML5 & CSS3</label>
                                         <div id="progressBar-html" class="progress-bar"><div></div></div>
@@ -164,7 +180,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-sm-12">
+                        <div class="col-sm-12 col-md-12">
                             <div class="card card--shadow">
                                 <div class="card-block">
                                     <div class="row">
@@ -176,10 +192,10 @@
                                                 <span>Education</span>
                                             </h4>
                                             <div class="card-text">
-                                                <div class="list-group work-content">
-                                                    <h4 class="list-group-item-heading work-content__heading bebas"><span class="education-title"></span></h4>
-                                                    <p class="list-group-item-text work-content__text accent-color--text">2011 - 2014 | 2015 - Present</p>
-                                                    <p class="list-group-item-text work-content__subtext">
+                                                <div class="list-group education-content">
+                                                    <h4 class="list-group-item-heading education-content__heading bebas"><span class="education-title"></span></h4>
+                                                    <p class="list-group-item-text education-content__text accent-color--text">2011 - 2014 | 2015 - Present</p>
+                                                    <p class="list-group-item-text education-content__subtext">
                                                         Received an A.A.S in computer programming with a focus in web development. I took various computer, server and front-end language classes including: C++, C#, Html, Java, iOS (swift) and PHP. I am still pursing my bachelors in computer science from the same college.
                                                     </p>
                                                 </div>
@@ -192,12 +208,50 @@
                                         <div class="col-sm-2 text-sm-center"></div>
                                         <div class="col-sm-9">
                                             <div class="card-text">
-                                                <div class="list-group work-content">
-                                                    <h4 class="list-group-item-heading work-content__heading bebas"><span class="education-title-2"></span></h4>
-                                                    <p class="list-group-item-text work-content__text accent-color--text">2001 - 2004</p>
-                                                    <p class="list-group-item-text work-content__subtext">
+                                                <div class="list-group education-content">
+                                                    <h4 class="list-group-item-heading education-content__heading bebas"><span class="education-title-2"></span></h4>
+                                                    <p class="list-group-item-text education-content__text accent-color--text">2001 - 2004</p>
+                                                    <p class="list-group-item-text education-content__subtext">
                                                        Clearwater High class of 2004, GO TORNADOS!!!!! Nothing special here just a regular diploma from a normal high school. AS you can see I took some time off from school before starting college. Nothing like video games and delivering pizzas to help you find yourself. 
                                                     </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-12">
+                            <div class="card card--shadow">
+                                <div class="card-block">
+                                    <div class="row">
+                                        <div class="col-sm-2 text-sm-center">
+                                            <i class="fa fa-map-signs fa-3x accent-color--text"></i>
+                                        </div>
+                                        <div class="col-sm-9">
+                                            <h4 class="card-title">
+                                                <span>Interests</span>
+                                            </h4>
+                                            <div class="card-text">
+                                                <div class="row">
+                                                    <div class="col-sm-2">
+                                                        <i class="fa fa-plane fa-3x"></i>
+                                                    </div>
+                                                    <div class="col-sm-2">
+                                                        <i class="fa fa-car fa-3x"></i>
+                                                    </div>
+                                                    <div class="col-sm-2">
+                                                        <i class="fa fa-bed fa-3x"></i>
+                                                    </div>
+                                                    <div class="col-sm-2">
+                                                        <i class="fa fa-beer fa-3x"></i>
+                                                    </div>
+                                                    <div class="col-sm-2">
+                                                        <i class="fa fa-film fa-3x"></i>
+                                                    </div>
+                                                    <div class="col-sm-2">
+                                                        <i class="fa fa-code fa-3x"></i>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>

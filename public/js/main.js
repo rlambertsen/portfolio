@@ -18,7 +18,7 @@ $(function(){
     });
 
     $('.work-title--4wheel').typed({
-        strings: ['Product Page Developer / YouTube Channel Talent', '<a href="https://twitter.com/4WheelOnline">@4wheelonline</a>  <a href="https://www.youtube.com/user/4wheelonlinevideos">YouTube Channel</a>'],
+        strings: ['Product Page Developer / YouTube Channel Talent', '<a href="https://twitter.com/4WheelOnline" target="_blank">@4wheelonline</a>  <a href="https://www.youtube.com/user/4wheelonlinevideos" target="_blank">YouTube Channel</a>'],
         startDelay: 1000,
         typeSpeed: 100,
         backDelay: 5000,
@@ -42,7 +42,7 @@ $(function(){
     });
 
     $('.education-title').typed({
-        strings: ['Saint Petersburg College <a href="https://twitter.com/spcnews">@SPCnews</a>'],
+        strings: ['Saint Petersburg College <a href="https://twitter.com/spcnews" target="_blank">@SPCnews</a>'],
         startDelay: 1000,
         typeSpeed: 100,
         backDelay: 5000,
@@ -50,7 +50,7 @@ $(function(){
     });
 
     $('.education-title-2').typed({
-        strings: ['Clearwater High School <a href="https://twitter.com/clearwaterhigh">@clearwaterhigh</a>'],
+        strings: ['Clearwater High School <a href="https://twitter.com/clearwaterhigh" target="_blank">@clearwaterhigh</a>'],
         startDelay: 1000,
         typeSpeed: 100,
         backDelay: 5000,
