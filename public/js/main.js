@@ -64,10 +64,5 @@ $(function(){
     progress(35, $('#progressBar-blade'));
     progress(25, $('#progressBar-laravel'));
 
-    $('.js-nav-open').on('click', function() {
-        $('#nav').toggle();
-    });
-    $('#nav').on('click', '.nav-link', function(){
-        $('#nav').toggle();
-    });
+
 });
