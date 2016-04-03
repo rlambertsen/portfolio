@@ -84,4 +84,46 @@ body {
 .progress-bar div {
   background-image: url(../images/pbar-ani.gif); }
 
+.nav-menu-icon {
+  color: #FFFFFF;
+  background: #5da4d9;
+  padding: 10px;
+  position: absolute;
+  z-index: 100000;
+  top: 10px;
+  left: 10px; }
+
+.nav-menu {
+  position: absolute;
+  width: 100%;
+  z-index: 1; }
+
+.white-background {
+  background-color: #FFF; }
+
+.hidden {
+  display: none; }
+
+.nav--new-styles {
+  position: relative;
+  left: 148px;
+  top: -1px;
+  border-radius: 6px;
+  padding: 10px;
+  box-shadow: 1px 5px 19px 4px #7D7D7D; }
+
+.nav-pills .nav-link.active,
+.nav-pills .nav-link.active:focus,
+.nav-pills .nav-link.active:hover,
+.nav-pills .nav-item.open .nav-link,
+.nav-pills .nav-item.open .nav-link:focus,
+.nav-pills .nav-item.open .nav-link:hover {
+  background-color: #5da4d9; }
+
+a {
+  color: #5da4d9; }
+
+a:hover {
+  color: #000; }
+
 /*# sourceMappingURL=main.css.map */
