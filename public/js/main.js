@@ -63,6 +63,8 @@ $(function(){
     progress(65, $('#progressBar-adobe'));
     progress(35, $('#progressBar-blade'));
     progress(25, $('#progressBar-laravel'));
+        
+    if (offsetTop != null && this.affixed == 'top') return scrollTop <= offsetTop ? 'top' : false;
 
     $('.btn-group--move-nav').affix();
 });
