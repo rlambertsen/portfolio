@@ -127,16 +127,15 @@ a:hover {
 .btn-nav {
   color: #FFF;
   background-color: #5da4d9;
-  border-color: #5da4d9; }
+  border-color: #000; }
 
 .btn-group--move-nav {
-  top: 10px;
-  left: 10px;
-  right: 0;
-  bottom: 0px;
   z-index: 1; }
 
 .view-site-btn {
   margin-top: 20%; }
+
+.affix {
+  position: fixed; }
 
 /*# sourceMappingURL=main.css.map */

@@ -64,5 +64,5 @@ $(function(){
     progress(35, $('#progressBar-blade'));
     progress(25, $('#progressBar-laravel'));
 
-
+    $('.btn-group--move-nav').affix();
 });
