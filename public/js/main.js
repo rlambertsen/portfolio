@@ -58,6 +58,14 @@ $(function(){
         loop: true
     });
 
+    $('.about-title').typed({
+        strings: ['Dad - Sports Fan - Friend - Rylan'],
+        startDelay: 1000,
+        typeSpeed: 100,
+        backDelay: 5000,
+        loop: true
+    });
+
     progress(90, $('#progressBar-html'));
     progress(45, $('#progressBar-js'));
     progress(65, $('#progressBar-adobe'));

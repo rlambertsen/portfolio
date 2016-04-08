@@ -117,9 +117,6 @@ a{
 a:hover{
     color: #000;
 }
-.dropdown-item.active, .dropdown-item.active:focus, .dropdown-item.active:hover{
-    background-color: $accentColor;
-}
 .btn-nav{
     color: #FFF;
     background-color: $accentColor;
@@ -133,6 +130,18 @@ a:hover{
 }
 .affix{
     position: fixed;
+}
+.dropdown-item.active, 
+.dropdown-item.active:focus, 
+.dropdown-item.active:hover{
+    background-color: #fff;
+    color: #373a3c;
+}
+.social-icons{
+    > li {
+        list-style: none;
+    }
+    margin: 0;
+    padding: 0;
 
 }
-
