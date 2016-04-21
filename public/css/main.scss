@@ -61,7 +61,7 @@ body{
 .card-block--text-white{
     color: #FFF;
 }
-.card-block--padding-sm{
+.card-block--padding-md{
     padding: 30px;
 }
 .card-img-top{
@@ -145,3 +145,32 @@ a:hover{
     padding: 0;
 
 }
+.last-card{
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+@media screen and (max-width: 760px){
+
+    .col-md-1,
+    .col-md-2,
+    .col-md-3,
+    .col-md-4,
+    .col-md-5,
+    .col-md-6,
+    .col-md-7,
+    .col-md-8,
+    .col-md-9,
+    .col-md-10,
+    .col-md-11{
+        margin: 0 15px;
+    }
+}
+@media screen and (max-width: 500px){
+    .col-md-12{
+        margin: 0 15px;
+    }
+}
+
+
+
+
