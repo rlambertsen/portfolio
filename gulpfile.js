@@ -35,5 +35,5 @@ gulp.task('concat', function() {
 
 
 
-gulp.task('default', ['sass'], function() {});
-gulp.task('default', ['copy', 'concat'], function() {});
+gulp.task('default', ['sass','copy', 'concat'], function() {});
+
